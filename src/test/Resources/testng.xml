@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GrowCRM Suite" parallel="false">
+    <test name="GrowCRM Client Tests">
+        <classes>
+            <class name="automationtest.GrowCrmClientTest"/>
+            <class name="automationtest.ClientUsersPageTest"/>
+        </classes>
+    </test>
+</suite>
